@@ -5,7 +5,6 @@ include_once "functions.php";
 
 
 function print_footer( $current_page ) {
-    lb( 1 );
     echo "</div></pre>";
 
     print_links_menu( $current_page );
