@@ -18,7 +18,7 @@ function print_body( $id ) {
     //
     if( $id == "0" || $id == null ) {
         foreach( $index_scripts as $script ) {
-        	system( $script ); lb();
+            system( $script ); lb();
         }
 
         $linksMenu->setPaintIndex( false );
@@ -37,8 +37,8 @@ function print_links_menu( $current_page ) {
 
 
 function lb( $n=2 ) {
-	for( $i = 1; $i <= $n; $i++ )
-		echo "<br />";
+    for( $i = 1; $i <= $n; $i++ )
+        echo "<br />";
 }
 
 
