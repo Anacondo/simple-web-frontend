@@ -51,16 +51,8 @@ $linksMenu->addItem( new MenuItem( "1", "top",          "",             $top_scr
 $linksMenu->addItem( new MenuItem( "2", "smart",        "",             $smart_script ) );
 $linksMenu->addItem( new MenuItem( "3", "dmesg",        "",             $dmesg_script ) );
 $linksMenu->addItem( new MenuItem( "4", "netstat",      "",             $netstat_script ) );
-$linksMenu->addItem( new MenuItem( "5", "rtgui",        "/rtgui",       "" ) );
-$linksMenu->addItem( new MenuItem( "6", "rutorrent",    "/rutorrent",   "" ) );
-
-
-
-
-
-
-
-
+$linksMenu->addItem( new MenuItem( "5", "sample_link1", "/url1",        "" ) );
+$linksMenu->addItem( new MenuItem( "6", "sample_link2", "/url2",        "" ) );
 
 ?>
 
