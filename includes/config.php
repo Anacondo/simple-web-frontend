@@ -46,13 +46,13 @@ $netstat_script = "netstat -a";
 /*   commands are called from the main template and don't have a path to redirect to.
 /*
 /*                                 id   name            path (links)    command                ***/        
-$linksMenu->addItem( new MenuItem( "0", "index",        "/",            "" ) );
+$linksMenu->addItem( new MenuItem( "0", "index",        "index.php",    "" ) );
 $linksMenu->addItem( new MenuItem( "1", "top",          "",             $top_script ) );
 $linksMenu->addItem( new MenuItem( "2", "smart",        "",             $smart_script ) );
 $linksMenu->addItem( new MenuItem( "3", "dmesg",        "",             $dmesg_script ) );
 $linksMenu->addItem( new MenuItem( "4", "netstat",      "",             $netstat_script ) );
-$linksMenu->addItem( new MenuItem( "5", "sample_link1", "/url1",        "" ) );
-$linksMenu->addItem( new MenuItem( "6", "sample_link2", "/url2",        "" ) );
+$linksMenu->addItem( new MenuItem( "5", "sample_link1", "url1",         "" ) );
+$linksMenu->addItem( new MenuItem( "6", "sample_link2", "url2",         "" ) );
 
 ?>
 
